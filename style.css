@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+
+    background-color: lightskyblue;
+}
+ .profile{
+    border-radius: 50%;
+
+ }
+ #welcome{
+    bottom: 0;
+    background:linear-gradient(rgb(245, 192, 201)0%,rgb(140, 140, 238)100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+ }
+
+ h1 {
+
+    font-size: 30px;
+    font-family:'Port Lligat Slab', serif;
+    font-weight: 30;
+ }
+
+ #name {
+   font-size:60px;
+   font-family: 'Cinzel Decorative', serif;
+ }
+
+ h2{
+   font-size: 40px;
+   font-weight: 300;
+   font-family:'Marck Script', cursive;
+ }
+ #bio{
+font-family: 'Marck Script', cursive;
+padding: 50px;
+ }
+.line{
+   height: 7px;
+   background-color: aliceblue;
+   width: 80px;
+   margin: 7px auto;
+}
+.parallax-inner{
+   display: table-cell;
+   vertical-align: middle;
+}
+.myNavbar{
+position: sticky;
+top: 0;
+z-index: 99999;
+
+}
+.links{
+display: inline;
+padding-left: 30px;
+padding-right: 20px;
+font-family: 'Port Lligat Slab', serif;
+
+font-size: 25px;
+}
+.links:hover {
+   font-size: 20px;
+   text-decoration: underline;
+}
+
+a {
+text-decoration: none;
+}
+
+#contatos{
+background:purple;
+}
+#contatos iframe{
+   width: 99%;
+}
+.contatos_1 h3
+{
+   display: inline;
+   padding-bottom: 20px;
+}
